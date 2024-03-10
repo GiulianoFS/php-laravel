@@ -648,7 +648,6 @@ class Filesystem
         if ($force) {
             return @mkdir($path, $mode, $recursive);
         }
-
         return mkdir($path, $mode, $recursive);
     }
 
